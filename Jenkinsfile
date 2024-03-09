@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 deleteDir()
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/saikishore789/devops-project-terraform.git'
 
                 sh "ls -ltra"
