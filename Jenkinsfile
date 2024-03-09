@@ -29,7 +29,7 @@ pipeline {
                 }
         }
 
-        /*stage('Terraform Plan') {
+        stage('Terraform Plan') {
             steps {
                 script {
                     if (params.PLAN_TERRAFORM) {
@@ -42,6 +42,6 @@ pipeline {
                     }
                 }
             }
-        }*/
+        }
     }
 }
