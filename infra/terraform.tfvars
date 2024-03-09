@@ -1,2 +1,2 @@
-bucket_name = "dev-proj-1-remote-state-bucket"
+bucket_name = "dev-remote-state-bucket"
 name        = "environment"
